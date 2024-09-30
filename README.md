@@ -11,7 +11,9 @@ The requirements are:
 1. Test across at least 3 different Python versions
 
 ## Steps taken to meet the requirements
-The workflow.yml file in the .github/workflow has the matrix included for python versions 3.7, 3.8, 3.9, 3.11. The python code will be tested against these three version to ensure it works with all of them. Please find an image of the workflow file below:\
+1. The workflow.yml file in the .github/workflows folder was updated with the matrix for python versions 3.7, 3.8, 3.9, 3.11. 
+1. The python code will be tested against these three version by CI to ensure it works with all of them. 
+1. Please find an image of the workflow file below:
 
 ![Workflow Image](workflow_image.png)
 
@@ -29,7 +31,7 @@ It has two functions:
 
 
 > [!TIP]
-> Just clone the repository to your local machine or codespace and enjoy.
+> Feel free to clone the repository.
 
 
 
